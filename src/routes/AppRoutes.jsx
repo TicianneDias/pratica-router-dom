@@ -1,11 +1,12 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useNavigate } from 'react-router-dom';
 import Home from '../pages/Home';
 import PageOne from '../pages/PageOne';
 import PageTwo from '../pages/PageTwo';
 import PageNotFound from '../pages/PageNotFound';
 
 const AppRoutes = () => {
+  
   return (
     <>
       <Routes>
