@@ -6,13 +6,13 @@ const GoBackButton = () => {
   const navigate = useNavigate();
 
   const navigateToHome = () => {
-    navigate('/');
+    navigate(-1);
   };
 
   return (
     <GoBackContainer>
       <GoBack onClick={navigateToHome}>
-        <h5>Go Home</h5>
+        <h5>Go Back</h5>
       </GoBack>
     </GoBackContainer>
   );
