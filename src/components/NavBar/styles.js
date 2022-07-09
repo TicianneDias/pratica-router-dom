@@ -11,6 +11,7 @@ export const Nav = styled.div`
   top: 0;
   left: 0;
   right: 0;
+  z-index: 999;
   @media (max-width: 768px) {
     justify-content: space-between;
   }

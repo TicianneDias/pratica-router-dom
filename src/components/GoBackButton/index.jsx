@@ -5,13 +5,13 @@ import { useNavigate } from 'react-router-dom';
 const GoBackButton = () => {
   const navigate = useNavigate();
 
-  const navigateToHome = () => {
+  const navigateBack = () => {
     navigate(-1);
   };
 
   return (
     <GoBackContainer>
-      <GoBack onClick={navigateToHome}>
+      <GoBack onClick={navigateBack}>
         <h5>Go Back</h5>
       </GoBack>
     </GoBackContainer>
